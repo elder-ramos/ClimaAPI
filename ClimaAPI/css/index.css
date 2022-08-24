@@ -2,13 +2,14 @@ h1{
     font: 30px normal;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
+    padding: 0.5rem;
 }
 
 section{
     font: 15px normal;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
-    width: 400px;
+    width: 300px;
     height: 170px;
     border-radius: 15px;
     padding: 15px;

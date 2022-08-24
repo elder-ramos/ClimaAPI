@@ -1,15 +1,18 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" id="background">
 <head>
     <meta charset="UTF-8">
     <title>Clima</title>
+    <meta name="viewport"content="width=device-width,initial-scale=1.0">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
     <link rel="stylesheet" href="css/index.css">
 </head>
-<body id="background" class="rainBG">
+<body class="rainBG is-full">
     <h1>API Clima</h1>    
     <section id="container" class="rain">
         <input type="text" id="cidade" placeholder="Digite a cidade aqui...">
-        <button onclick="buscarClima()">Buscar</button>
+        <button class="btn" onclick="buscarClima()">Buscar</button>
         <div id="resultado"></div>
         <div id="icone"></div>
     </section>

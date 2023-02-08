@@ -15,7 +15,7 @@ function mostrarClima(data){
     let cidade = document.getElementById('cidade').value
     let resultado = document.getElementById('resultado')
     let background = document.getElementById('background')
-    let section = document.getElementById('container')
+    let div = document.getElementById('container')
     let clima = data.weather[0].main
 
     //  Resultados
@@ -26,6 +26,6 @@ function mostrarClima(data){
 
 
     // Mudando CSS 
-    section.className = clima
+    div.className = clima
     background.className = clima + 'BG'
 }
